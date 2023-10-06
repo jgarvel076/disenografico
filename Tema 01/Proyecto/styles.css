@@ -95,3 +95,14 @@ a{
     border: 2px solid darkblue;
     border-radius: 10px;
 }
+
+#divImagenInicio{
+    position: relative;
+    left: 500px;
+
+}
+
+#divImagenIzq{
+    width: 200px;
+  height: 150px;
+}
