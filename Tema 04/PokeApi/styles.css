@@ -1,0 +1,15 @@
+.header {
+    height: 40px;
+    background-color: rgb(255, 52, 52);
+
+    display:flex;
+    justify-content: space-around;
+}
+
+#zonaTitulo__logo img{
+    width: 90px;
+    height: auto;
+}
+.header__zonaTitulo:hover{
+    background-color: red;
+}
