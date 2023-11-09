@@ -147,3 +147,22 @@ a{
     font-family: 'ZombieHolocaust';
     font-size: 2em;
 }
+
+@media all and (max-width: 920px) {
+    .main__zonaImagen{
+        grid-column: 2/6;
+
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+
+    @media all and (max-width: 920px) {
+        .main__zonaInfo{
+            grid-column: 6/12;
+    
+            border-left: 6px solid #330033;
+            padding: 10px;
+        }
+    }
+}
