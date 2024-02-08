@@ -1,4 +1,4 @@
- html {
+html {
   box-sizing: border-box;
 }
 *,
@@ -6,7 +6,7 @@
 *:after {
   box-sizing: inherit;
   font-family: "Inter", sans-serif;
-} 
+}
 
 .gridContainer {
   min-height: 100vh;
@@ -22,31 +22,24 @@
 }
 
 #zonaLogo {
-  grid-column: 2 / 4;
+  grid-column: 5/9;
   grid-row: 1;
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+
+  border: 1px solid black;
 }
 
 #zonaLogo img {
-  max-height: 200px;
+  max-height: 100px;
   height: 200px;
 }
 
-#zonaTitulo {
-  grid-column: 5 / 9;
-  grid-row: 1;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#zonaTitulo h1 {
+#zonaLogo h1 {
   text-align: center;
-  font-size: 72px;
+  font-size: 56px;
   margin: 0;
 }
 
@@ -56,7 +49,7 @@
 
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 550px;
   padding: 3px;
 
 }
@@ -66,35 +59,33 @@
     width: 100px;
     text-align: center;
     border-radius: 5px;
-
-    transition: all 0.1s linear;
 }
 
 #zonaNavegacion div:hover {
-    box-shadow: 0px 0px 2px 2px rgba(255,255,255,1);
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
 }
 
 
 /*ESTILOS PARA LA ZONA DE CONTENIDO DE LA PÁGINA*/
 
 #zonaContenido {
-  grid-column: 3/11;
+  grid-column: 1/13;
   grid-row: 3;
-  background-image: url(images/_e5d20e03-7843-43e1-a641-88218ae05ea4.jpg) ;
+  background-image: url('images/fondoContenido.jpg') ;
   background-size: cover; /* La imagen se ajustará para cubrir todo el área del contenedor */
   background-repeat: no-repeat;
 }
 
 /*ESTILOS PARA LA ZONA DE CONTENIDO DE LA PÁGINA CONTACTO CONCRETAMENTE*/
-.zonaContenidoContacto {
+/* .zonaContenidoContacto {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
+} */
 
 /*ESTILOS PARA LA CAJA CONTENEDORA DE LOS CAMPOS DEL FORMULARIO*/
-.divFormulario {
+/* .divFormulario {
   width: 50%;
   min-height: 70%;
   height: auto;
@@ -104,18 +95,18 @@
   border-radius: 10px;
 
   background-color: rgb(119, 124, 167);
-}
+} */
 
 /*ESTILOS PARA LOS LABEL DEL FORMULARIO*/
 
-.divFormulario label {
+/* .divFormulario label {
   font-size: 20px;
   padding-left: 10px;
-}
+} */
 
 /*ESTILOS PARA LOS INPUT DEL FORMULARIO*/
 
-.inputDiv {
+/* .inputDiv {
   width: 100%;
   height: 50px;
 
@@ -142,10 +133,10 @@
 
 .inputDiv input:focus {
   border: 3px solid rgb(39, 39, 39);
-}
+} */
 
 /* ESTILOS PARA EL TEXTAREA DEL FORMULARIO*/
-.inputTextArea {
+/* .inputTextArea {
   width: 100%;
   height: 100px;
 
@@ -172,10 +163,10 @@
 
 .inputTextArea textarea:focus {
   border: 3px solid rgb(39, 39, 39);
-}
+} */
 
 /*ESTILOS PARA LOS BOTONES*/
-.inputBotones {
+/* .inputBotones {
   padding-top: 20px;
   height: 40px;
 
@@ -208,5 +199,5 @@
   font-size: 1em;
   cursor: pointer;
   transform: scale(1.1);
-}
+} */
 
